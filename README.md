@@ -1,3 +1,21 @@
+# LingxiLit
+
+LingxiLit 是 [LingXi · 灵犀](https://github.com/LingXi-Org) 维护的 AI 可观测性项目，基于 [OpenLIT](https://github.com/openlit/openlit) 开源社区版，提供 OpenTelemetry 追踪、模型用量与成本观测、评估、提示词管理和调试能力。
+
+组织仓库：[LingXi-Org/LingxiLit](https://github.com/LingXi-Org/LingxiLit)。相关项目：[LingxiLoop 学习协作平台](https://github.com/LingXi-Org/LingxiLoop) · [LingxiOS Agent 执行运行时](https://github.com/LingXi-Org/LingxiOS)。
+
+## Development and deployment
+
+- Clone this fork with `git clone https://github.com/LingXi-Org/LingxiLit.git`.
+- See the [source development guide](src/README.md), [client guide](src/client/README.md), and [Komodo Compose configuration](deploy/komodo/compose.yml) for this repository's development and deployment entry points.
+- The upstream SDKs retain their `openlit` names. Repository ownership does not rename SDK packages or automatically configure telemetry in consuming applications.
+
+## Upstream attribution
+
+LingxiLit is derived from OpenLIT and retains the [Apache-2.0 license](LICENSE), upstream copyright notices, and contributor attribution. The upstream overview below describes OpenLIT; its badges, community links, and upstream installation instructions remain attributed to that project.
+
+---
+
 <div align="center">
 <img src="https://github.com/openlit/.github/blob/main/profile/assets/wide-logo-no-bg.png?raw=true" alt="OpenLIT Logo" width="30%">
 
